@@ -6,7 +6,7 @@ read
 
 cd /usr/local/bin
 
-echo "Será solicitado a senha do usuário Postgres digite 123456"
+echo "Será solicitado a senha do usuário Postgres"
 echo "aperte Enter para continuar"
 
 ./initdb -U postgres -W -A md5 --locale=pt_BR.ISO-8859-1 -D /dados/cucafresca/cuca/postgresql/10/data/
