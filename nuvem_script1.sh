@@ -8,7 +8,7 @@ chmod -R 777 /dados/cucafresca/cuca/postgresql/10/data
 chown -R postgres /dados/cucafresca/cuca/postgresql
 chmod -R 0700 /dados/cucafresca/cuca/postgresql
 
-wget #subir um nova pasta com DATA configurado
+wget https://raw.githubusercontent.com/cucafresca/script_nuvem/main/iniciabanco.sh
 wget #mudar script postgresql.services com print
                                                                                            
 chmod +x iniciabanco.sh && chmod 777 iniciabanco.sh
