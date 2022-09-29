@@ -1,0 +1,16 @@
+[Unit]
+
+Descript=postgresql
+
+[Service]
+
+Type=simple
+user=root
+RemainAfterExit=yes
+ExecStart=/etc/systemd/system/iniciabanco.sh start
+Restart=always
+RestartSec=1
+
+[Install]
+
+WantedBy=multi-user.target
